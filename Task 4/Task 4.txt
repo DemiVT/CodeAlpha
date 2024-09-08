@@ -1,0 +1,21 @@
+TASK 4: Network Intrusion Detection System (Snort Example)
+Set up Snort:
+
+Install Snort:
+
+Follow the Snort Installation Guide.
+
+Configure Snort:
+
+Edit snort.conf to configure your rules.
+Basic Snort Command:
+
+
+snort -A console -c /etc/snort/snort.conf -i eth0
+
+Replace /etc/snort/snort.conf with the path to your Snort configuration file.
+Replace eth0 with your network interface.
+
+Visualization:
+
+Use tools like Snorby, BASE, or ELK Stack for visualizing Snort data.
